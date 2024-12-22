@@ -1,6 +1,11 @@
 from random import randint
 
 
+numbers = []
+baza_number = []
+baza_password = []
+kartas = []
+
 class Bank:
     def __init__(self, name, address):
         self.name = name
@@ -187,11 +192,6 @@ class Bank:
         else:
             pass
 
-
-numbers = []
-baza_number = []
-baza_password = []
-kartas = []
 
 name = input("Введіть ваше ім'я: ")
 address = input("Введіть вашу електронну адресу: ")
